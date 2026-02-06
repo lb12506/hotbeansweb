@@ -1,0 +1,125 @@
+   .html {
+    overflow-x: hidden;
+}
+
+.back-colour{
+    color: #1a1a1a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Navigation ooooooooooooooooooooooooooooooooooooooooooooooooo*/
+nav {
+    background: #1a1a1a;
+    width: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 2%;
+}
+
+
+
+a.about-us-blue {
+    color: #4a9eff;
+}
+
+.logo-link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.logo-link:visited {
+    color: #ffffff;
+}
+
+.logo-link:hover {
+    color: #4a9eff;
+}
+
+
+.logo {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: left;
+}
+
+
+.nav-links {
+    display: flex;
+    gap: 47px;
+    list-style: none;
+    stroke-width: 10%;
+    justify-content: left;
+}
+
+.nav-links a {
+    color: #999;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #4a9eff;
+}
+
+.nav-links a.about-us-blue:hover {
+    color: #4a9eff;
+    }
+
+.nav-links a.active {
+    color: #4a9eff;
+}
+
+/* First Section ooooooooooooooooooooooooooooooooooooooooooooooooo*/
+
+.first-section {
+    background-color: #6d6d6d;
+    padding: 150px ;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: auto auto  ;
+    gap: 20px;
+    align-items: center;
+    justify-items: left;
+}
+
+.heading {
+    font-size: 50px;
+}
+
+.paragraph {
+    font-size: 45px;
+}
+
+.cta-button {
+    background: #1a1a1a;
+    color: white;
+    border: none;
+    padding: 15px 4%;
+    font-size: 14px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    grid-column: 1/ -1;
+    grid-row: 3;
+    justify-content: center;
+    justify-self: center; 
+    margin-top: 4%;
+}
+
+.cta-button:hover {
+    background: #333;
+}
